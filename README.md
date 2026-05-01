@@ -1,3 +1,5 @@
+# SentimentScope: Transformer-Based Sentiment Analysis
+
 A PyTorch-based sentiment analysis model built completely from scratch to classify IMDB movie reviews as positive or negative. This project demonstrates the inner workings of Transformer architectures and natural language processing (NLP) pipelines.
 
 ## Project Overview
@@ -23,6 +25,20 @@ The model is trained on the Stanford IMDB Dataset, consisting of highly polar mo
 The custom `DemoGPT` model was trained for 10 epochs using the AdamW optimizer and achieved the following performance:
 * **Validation Accuracy**: ~79.80%
 * **Test Accuracy**: 76.73% (Successfully surpassing the >75% project baseline)
+
+* ## Example Outputs
+Here is a look at the interactive `ipywidgets` UI in action. The model takes in raw text, tokenizes it, and outputs the predicted sentiment using the custom-trained weights.
+
+**Positive Example**
+
+<img width="763" height="147" alt="image" src="https://github.com/user-attachments/assets/88448bd2-694d-493a-bd3c-dd44286b9e31" />
+
+**Negative Example**
+
+
+<img width="737" height="144" alt="image" src="https://github.com/user-attachments/assets/e66de0b3-b49a-408c-8cbb-50826e7ce6f0" />
+
+
 
 ## Tech Stack
 * **Language**: Python
