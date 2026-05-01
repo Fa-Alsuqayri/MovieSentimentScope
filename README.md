@@ -29,11 +29,15 @@ The custom `DemoGPT` model was trained for 10 epochs using the AdamW optimizer a
 * ## Example Outputs
 Here is a look at the interactive `ipywidgets` UI in action. The model takes in raw text, tokenizes it, and outputs the predicted sentiment using the custom-trained weights.
 
-**Positive Example**
+**Positive Example:**
+
 
 <img width="763" height="147" alt="image" src="https://github.com/user-attachments/assets/88448bd2-694d-493a-bd3c-dd44286b9e31" />
 
-**Negative Example**
+
+
+**Negative Example:**
+
 
 
 <img width="737" height="144" alt="image" src="https://github.com/user-attachments/assets/e66de0b3-b49a-408c-8cbb-50826e7ce6f0" />
