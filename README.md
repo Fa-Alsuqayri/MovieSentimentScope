@@ -1,7 +1,3 @@
-# MovieSentimentScope
-A custom Transformer model built from scratch in PyTorch to classify IMDB movie reviews for the CineScope recommendation system.
-# SentimentScope: Transformer-Based Sentiment Analysis
-
 A PyTorch-based sentiment analysis model built completely from scratch to classify IMDB movie reviews as positive or negative[cite: 1, 2]. This project demonstrates the inner workings of Transformer architectures and natural language processing (NLP) pipelines.
 
 ## Project Overview
